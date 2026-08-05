@@ -1,1 +1,1 @@
-# dotfiles
+includes an install script
