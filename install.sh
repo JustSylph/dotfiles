@@ -23,4 +23,3 @@ mv ~/dotfiles/.config/kitty ~/.config/
 feh --bg-tile ~/wallpaper/tiled.png
 rm -r ~/dotfiles
 echo "Installation finished!"
-echo "Configure Tide `curl -sS https://starship.rs/install.sh | sh`"
