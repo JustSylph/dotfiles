@@ -2,7 +2,7 @@
 PACKAGE_LIST="keepassxc filezilla vim kitty gh xorg fish i3 polybar fastfetch feh curl firefox-esr pipewire-audio blueman"
 
 # symlinks
-mkdir /home/hydrogen/.config
+sudo mkdir /usr/share/fonts
 ln -s /home/hydrogen/.dotfiles/.config/fastfetch /home/hydrogen/.config/fastfetch
 ln -s /home/hydrogen/.dotfiles/.config/i3 /home/hydrogen/.config/i3
 ln -s /home/hydrogen/.dotfiles/.config/fish /home/hydrogen/.config/fish
