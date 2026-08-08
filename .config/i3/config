@@ -5,9 +5,8 @@
 set $mod Mod4
 set $smod Shift
 set $wm_setting_font pango:DepartureMono 11
-set $wm_setting_gap_width            11
-set $wm_setting_gap_heigth           11
-set $wm_setting_border_size          2
+set $wm_setting_gap_size             10
+set $wm_setting_border_size          5
 set $wm_setting_key_left             Left
 set $wm_setting_key_down             Down
 set $wm_setting_key_up               Up
@@ -17,14 +16,14 @@ set $wm_setting_app_terminal         kitty
 set $wm_setting_app_browser          firefox
 set $wm_setting_app_launcher         dmenu_run
 
-set $wm_color_border_active_bg       #66aaaa
-set $wm_color_border_active_fg       #447099
-set $wm_color_border_inactive_bg     #447099
-set $wm_color_border_inactive_fg     #D8DEE9
-set $wm_color_background             #2E3440
+set $wm_color_border_active_bg       #55aa80
+set $wm_color_border_active_fg       #338066
+set $wm_color_border_inactive_bg     #ff4066
+set $wm_color_border_inactive_fg     #bb2040
+set $wm_color_background             #101010
 
 set $bar_setting_position            bottom
-set $bar_setting_mode                dock
+set $bar_setting_mode                invisible
 set $bar_setting_font                pango:DepartureMono 11px
 set $bar_setting_separator           " - "
 set $bar_setting_statusCommand       i3status
@@ -110,14 +109,14 @@ bindsym $mod+$smod+$wm_setting_key_up    move up
 bindsym $mod+$smod+$wm_setting_key_right move right
 
 ### Gaps ###
-gaps horizontal  10
-#gaps vertical   $wm_setting_gap_heigth
-#smart_gaps on
+gaps inner $wm_setting_gap_size
+gaps outer $wm_setting_gap_size
+smart_gaps on
 
 ### Borders ###
-#default_border pixel $wm_setting_border_size
-#default_floating_border pixel $wm_setting_border_size
-#smart_borders on
+default_border pixel $wm_setting_border_size
+default_floating_border pixel $wm_setting_border_size
+smart_borders on
 
 ### Colors ###
 # class                 border                       background                   text                         indicator                    child_border
