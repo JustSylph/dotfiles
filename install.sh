@@ -8,7 +8,7 @@ ln -s ~/.dotfiles/.config/i3 ~/.config/i3
 ln -s ~/.dotfiles/.config/fish ~/.config/fish
 ln -s ~/.dotfiles/.config/kitty ~/.config/kitty
 ln -s ~/.dotfiles/.config/polybar ~/.config/polybar
-ln -s ~/.dotfiles/fonts/DepartureMono-1.500/DepartureMono-Regular.otf /usr/share/fonts/DepartureMono.otf
+sudo cp ~/.dotfiles/fonts/DepartureMono-1.500/DepartureMono-Regular.otf /usr/share/fonts/
 ln -s ~/.dotfiles/.xinitrc ~/.xinitrc
 # packages
 sudo apt install -y $PACKAGE_LIST
