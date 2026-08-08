@@ -1,5 +1,5 @@
 #!/bin/bash
-PACKAGE_LIST="keepassxc filezilla vim kitty gh xorg fish i3 polybar fastfetch feh curl firefox-esr pipewire-audio blueman"
+PACKAGE_LIST="keepassxc filezilla vim kitty gh xorg fish i3 polybar fastfetch feh curl firefox-esr pipewire-audio blueman unzip"
 
 # symlinks
 sudo mkdir /usr/share/fonts
