@@ -3,6 +3,7 @@ PACKAGE_LIST="keepassxc filezilla vim kitty gh xorg fish i3 polybar fastfetch fe
 
 # symlinks
 sudo mkdir /usr/share/fonts
+sudo mkdir /home/hydrogen/.config
 ln -s /home/hydrogen/.dotfiles/.config/fastfetch /home/hydrogen/.config/fastfetch
 ln -s /home/hydrogen/.dotfiles/.config/i3 /home/hydrogen/.config/i3
 ln -s /home/hydrogen/.dotfiles/.config/fish /home/hydrogen/.config/fish
